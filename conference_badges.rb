@@ -11,3 +11,4 @@ def batch_badge_creator(arrayofnames)
     "Hello, my name is #{name}"
   end
 end
+puts badge_maker(["beyonce", "kelly"])
