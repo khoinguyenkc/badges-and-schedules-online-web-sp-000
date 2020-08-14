@@ -14,3 +14,11 @@ def batch_badge_creator(arrayofnames)
   return newarray
 end
 puts batch_badge_creator(["beyonce", "kelly"])
+
+def assign_rooms(arrayofnames)
+  arrayofrooms = []
+  arrayofnames.each_with_index do |name, index|
+    arrayofrooms.push("Hello, #{name}! You'll be assigned to room _____!")
+  end
+  return arrayofrooms
+end
