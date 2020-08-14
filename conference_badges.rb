@@ -18,7 +18,7 @@ puts batch_badge_creator(["beyonce", "kelly"])
 def assign_rooms(arrayofnames)
   arrayofrooms = []
   arrayofnames.each_with_index do |name, index|
-    arrayofrooms.push("Hello, #{name}! You'll be assigned to room #{index}!")
+    arrayofrooms.push("Hello, #{name}! You'll be assigned to room #{index+1}!")
   end
   return arrayofrooms
 end
