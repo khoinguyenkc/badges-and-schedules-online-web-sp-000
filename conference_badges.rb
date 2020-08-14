@@ -7,8 +7,10 @@ puts badge_maker("beyonce")
 
 
 def batch_badge_creator(arrayofnames)
+  newarray
   arrayofnames.each do |name|
-    "Hello, my name is #{name}"
+    newarray.push("Hello, my name is #{name}.")
   end
+  return newarray
 end
 puts batch_badge_creator(["beyonce", "kelly"])
